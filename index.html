@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./phone.css">
+    <title>Easy Math!</title>
+</head>
+<body>
+
+    <!-- screen  -->
+    <div id="startSc">
+            <!-- // timer -->
+            <div id="timebox">
+                <h1 id="timedis"> 00</h1>
+            </div>
+            <div id="corrCount">
+                <h1 id="corrdis">Hi!</h1>
+            </div>
+        <h1 id="mathdis"></h1>
+        <input type="number" value=""  id="answerbox">
+        <!-- //description -->
+        <p id="des">Haha! easy math for speed testing only! <br>
+            music by <a target="_blank" href="https://freemusicarchive.org/home">freeMusicArchive</a><br>
+           <i> New Update Comming Soon!</i>
+
+        </p>
+        <button id="submit" onclick="summary()">Next</button>
+        <div id="musicbox">
+
+            <audio id='song'>
+                <source src="mus.mp3">
+            </audio>
+
+            <button id="playbtn"> <i class=" fa fa-music"></i> </button>
+        </div>
+        
+
+         <!-- start button and title   -->
+        <h1 id="title">Easy Math!!</h1>
+        <button  onclick="removeHome()" id="start">Start</button>
+    </div>
+    <div id="hide" >I made this while in high school.</div>
+    <script src="./scripts.js"></script>
+</body>
+</html>
