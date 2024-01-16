@@ -1,0 +1,251 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+
+    background-color:rgb(243, 237, 237);
+}
+
+#startSc{
+    height: 700px;
+    width:900px;
+    background-color:lightcyan;
+    box-shadow: 5px 5px rgb(146, 141, 141);
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border-radius:10px;
+}
+
+#title{
+    /* text-align:center; */
+     font-size:320%;
+     position: absolute;
+     top: 50%;
+     left:50%;
+     transform:translate(-50%,-50%);
+    text-shadow: 3px 2px lightgray;
+    user-select: none;
+    font-family: Lobster;
+}
+
+#start{
+    height: 50px;
+    width:100px;
+    font-size: 220%;
+    border:none;
+    background-color:azure;
+    box-shadow:3px 2px lightgray;
+    border-radius:10px;
+    font-weight: bold;
+    font-family: lobster;
+    position: absolute;
+    top: 80%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    user-select:none ;
+    animation: nameAn infinite 1.5s ease;
+}
+
+
+
+@keyframes nameAn{
+    0%{ height:50px; 
+        width:100px; 
+        font-size:220%;
+        background-color: azure;
+        
+    }
+    50%{ height: 75px;
+        width:150px;
+        font-size:290%;
+        background: lightcoral;
+    }
+    75%{  
+        height: 100px;
+        width:200px;
+        font-size:350%;
+        background:lightgreen;
+     }
+     100%{  
+        height:50px; 
+        width:100px; 
+        font-size:220%;
+        background-color: azure;
+     }
+}
+
+#des{
+    font-family: Lobster;
+    font-size: 120%;
+    color: rgb(117, 117, 196);
+    position:absolute;
+    bottom:3%;
+    left:2%;
+    user-select: none;
+}
+
+#des> i{
+    color:rgb(141, 141, 230);
+}
+
+#timebox{
+    font-family: Lobster;
+    background-color:lightskyblue;
+    height:40px;
+    width:100px;
+    border-radius:10px;
+    margin:2%;
+    position: absolute;
+    left:2%;
+    top:5%;
+    display: none;
+}
+
+#timedis{
+    text-align: center;
+    top:10%;
+    user-select: none;
+}
+
+#scoreboard{
+    height: 50%;
+    width:50%;
+    background:bisque;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border-radius:10px;
+    box-shadow: 4px 4px gray;
+}
+
+#donebtn{
+    position: absolute;
+    top:90%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    height:10%;
+    width:20%;
+    font-size:140%;
+    font-family: Lobster;
+    border:none;
+    animation: donebtn infinite 1.5s ease;
+    border-radius:10px;
+    background-color:transparent;
+    text-decoration:underline;
+}
+
+#donebtn:hover{
+    cursor:pointer;
+}
+
+#mathdis{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color: indigo;
+    font-family: Lobster;
+    font-size:420%;
+    text-shadow: 4px 4px lightgray;
+    user-select: none;
+    display: block;
+    display: none;
+}
+
+#answerbox{
+    position: absolute;
+    top:70%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color: indigo;
+    font-family: Lobster;
+    font-size: 180%;
+    user-select: none;
+    display: block;
+    border-radius: 10px;
+    border:none;
+    box-shadow: 4px 4px lightgray;
+    display: none;
+    text-align: center;
+}
+
+#answerbox:focus{
+    border:none;
+    background: lightgoldenrodyellow;
+    user-select: none;
+}
+
+#corrCount{
+    font-family: Lobster;
+    background-color:lightskyblue;
+    height:40px;
+    width:100px;
+    border-radius:10px;
+    margin:2%;
+    display: none;
+    position: absolute;
+    right: 2%;
+    top:5%;
+}
+
+
+#corrdis{
+    text-align: center;
+    user-select: none;
+}
+
+
+#results{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50% ,-50%);
+    color:indigo;
+    font-family: Lobster;
+}
+
+#musicbox{
+    position: absolute;
+    background: inherit;
+    /* box-shadow: 3px 3px gray; */
+    top:90%;
+    left:85%;
+    transform: translate(-50%,-50%);
+    height: 100px;
+    width:200px;
+    border-radius: 10px;
+}
+
+#playbtn{
+    height: 50%;
+    width: 50%;
+    border: none;
+    border-radius: 10px;
+    background: inherit;
+    box-shadow: 2px 2px gray;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-size: 120%;
+    color: black;
+}
+
+
+#submit{
+    display: none;
+    padding: 3%;
+    position: absolute;
+    top:80%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background:inherit;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    font-style:italic;
+}
