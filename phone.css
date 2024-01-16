@@ -1,0 +1,32 @@
+@media only screen and (max-width: 1000px){
+    #startSc{
+        height: 90vh;
+        width: 100vw;
+    }
+
+    #musicbox{
+        height: 10%;
+        width:30%;
+    }
+
+    #title{
+        top:40%;
+    }
+
+    #start{
+        top:70%;
+    }
+
+    #submit{
+        display: none;
+        padding: 3%;
+        position: absolute;
+        top:82%;
+        left:50%;
+        transform:translate(-50%,-50%);
+        background:inherit;
+        font-weight: bolder;
+        font-family: 'Courier New', Courier, monospace;
+        font-style:italic;
+    }
+}
